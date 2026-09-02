@@ -1,7 +1,7 @@
 version: '3'
 services:
   vault:
-    image: hashicorp/vault:1.18.5
+    image: hashicorp/vault:2.1.0
     network_mode: bridge
     container_name: ck-vault
     ports:
